@@ -1,0 +1,30 @@
+.task-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  .task-list h1 {
+    margin-bottom: 1em;
+  }
+  
+  .task-list button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-list button svg {
+    margin-right: 0.5em;
+  }
+  
+  .task-list button:hover {
+    background-color: #218838;
+  }
+  
